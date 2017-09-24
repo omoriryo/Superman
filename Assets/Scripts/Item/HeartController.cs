@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class HeartController : MonoBehaviour {
 
-	public int num;
 	float fallSpeed;
 	float slideSpeed;
 	//float rotSpeed;
 
-	public void numLife(int num){
-		this.num = num;
-	}
 
 	void Start () {
 		this.fallSpeed = 0.01f;
